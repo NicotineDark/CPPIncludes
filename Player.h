@@ -10,5 +10,6 @@ public:
 // Class methods
 	Player(string pName, int pLevel);
 	Player();
+	~Player();
 };
 
