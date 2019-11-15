@@ -9,5 +9,6 @@ private:
 
 public:
 	Equipment(string pName, double pWeight);
+	Equipment();
 };
 
