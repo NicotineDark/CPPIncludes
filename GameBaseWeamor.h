@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-public class Equipment
+class Equipment
 {
 private:
 	string name;
@@ -20,7 +20,7 @@ public:
 	}
 };
 
-public class Weapon :
+class Weapon :
 	public Equipment
 {	
 private:
@@ -38,7 +38,7 @@ Weapon() :
 }
 };
 
-public class Armor :
+class Armor :
 	public Equipment
 {
 private:
