@@ -25,7 +25,7 @@ class Weapon :
 {	
 private:
 	int damage;
-
+public:
 Weapon(string pName, double pWeight, int pDam) : 
 	Equipment(pName, pWeight)
 {
