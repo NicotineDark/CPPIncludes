@@ -64,4 +64,5 @@ public:
 	Backpack();
 	Backpack(int pAmount);
 	~Backpack();
+	
 };
