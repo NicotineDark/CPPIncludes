@@ -63,4 +63,5 @@ private:
 public:
 	Backpack();
 	Backpack(int pAmount);
+	~Backpack();
 };
